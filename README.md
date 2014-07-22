@@ -9,3 +9,8 @@ Each resource listed may have a link to code/notes I may have written.
 * [Trival Monad](http://blog.sigfpe.com/2007/04/trivial-monad.html) by Dan Piponi
   - Good introduction to the intuition behind monads. Should understand types, and the basics behind type classes.
   - [Notes](trivial-monad/README.md)
+
+## Blogs
+Blogs on subject or related subjects
+### Programming Language Theory
+* http://existentialtype.wordpress.com
