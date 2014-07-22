@@ -13,4 +13,6 @@ Each resource listed may have a link to code/notes I may have written.
 ## Blogs
 Blogs on subject or related subjects
 ### Programming Language Theory
-* http://existentialtype.wordpress.com
+* [Robert Harper](http://www.cs.cmu.edu/~rwh/)
+  - Good resources on type theory, HoTT, etc.
+  - http://existentialtype.wordpress.com
