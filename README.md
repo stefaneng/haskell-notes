@@ -19,6 +19,7 @@ Blogs on subject or related subjects
 * [Edward Yang](http://blog.ezyang.com/)
 #### Books
 * [Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/tapl/)
+  - [Princeton Course](http://www.cs.princeton.edu/~dpw/cos441-11/)
   - [Haskell Code](https://code.google.com/p/tapl-haskell/)
 * [Practical Foundations For Programming Languages](Practical Foundations for Programming Languages (Online Preview Edition, With Corrections))
   - [Review](http://blog.ezyang.com/2012/08/practical-foundations-for-programming-languages/)
