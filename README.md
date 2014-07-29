@@ -14,6 +14,7 @@ Each resource listed may have a link to code/notes I may have written.
 Blogs on subject or related subjects
 ### Haskell
 * [Haskell for All](http://www.haskellforall.com/) - Gabriel Gonzalez ([/u/Tekmo](http://www.reddit.com/user/Tekmo) on Reddit)
+* [Jakub Arnold](http://blog.jakubarnold.cz/)
 ### Programming Language Theory
 * [Robert Harper](http://www.cs.cmu.edu/~rwh/)
   - Good resources on type theory, HoTT, etc.
