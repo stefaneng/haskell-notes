@@ -12,6 +12,8 @@ Each resource listed may have a link to code/notes I may have written.
 
 ## Blogs
 Blogs on subject or related subjects
+### Haskell
+* [Haskell for All](http://www.haskellforall.com/) - Gabriel Gonzalez ([/u/Tekmo](http://www.reddit.com/user/Tekmo) on Reddit)
 ### Programming Language Theory
 * [Robert Harper](http://www.cs.cmu.edu/~rwh/)
   - Good resources on type theory, HoTT, etc.
@@ -23,3 +25,8 @@ Blogs on subject or related subjects
   - [Haskell Code](https://code.google.com/p/tapl-haskell/)
 * [Practical Foundations For Programming Languages](Practical Foundations for Programming Languages (Online Preview Edition, With Corrections))
   - [Review](http://blog.ezyang.com/2012/08/practical-foundations-for-programming-languages/)
+
+## Libraries
+* [Servant](http://alpmestan.com/posts/2014-07-26-announcing-servant.html) defining RESTful webservices around database operations.
+  - https://github.com/zalora/servant
+  - http://hackage.haskell.org/package/servant
