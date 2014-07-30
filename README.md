@@ -32,3 +32,6 @@ Blogs on subject or related subjects
 * [Servant](http://alpmestan.com/posts/2014-07-26-announcing-servant.html) defining RESTful webservices around database operations.
   - https://github.com/zalora/servant
   - http://hackage.haskell.org/package/servant
+
+## Papers
+* [Applicative programming with effects](http://www.soi.city.ac.uk/~ross/papers/Applicative.html)
