@@ -16,11 +16,13 @@ Blogs on subject or related subjects
 * [Haskell for All](http://www.haskellforall.com/) - Gabriel Gonzalez ([/u/Tekmo](http://www.reddit.com/user/Tekmo) on Reddit)
 * [Jakub Arnold](http://blog.jakubarnold.cz/tags/haskell.html)
 * [ocharles](https://ocharles.org.uk/blog/)
+
 ### Programming Language Theory
 * [Robert Harper](http://www.cs.cmu.edu/~rwh/)
   - Good resources on type theory, HoTT, etc.
   - http://existentialtype.wordpress.com
 * [Edward Yang](http://blog.ezyang.com/)
+
 #### Books
 * [Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/tapl/)
   - [Princeton Course](http://www.cs.princeton.edu/~dpw/cos441-11/)
