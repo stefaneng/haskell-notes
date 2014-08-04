@@ -37,3 +37,4 @@ Blogs on subject or related subjects
 * [Applicative programming with effects](http://www.soi.city.ac.uk/~ross/papers/Applicative.html)
 * [A tutorial on the universality and
 expressiveness of fold](http://www.cs.nott.ac.uk/~gmh/fold.pdf)
+  - [Notes](Fold/)
