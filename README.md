@@ -47,4 +47,5 @@ expressiveness of fold](http://www.cs.nott.ac.uk/~gmh/fold.pdf)
 
 ## Courses
 * [Constructive Logic](http://www.cs.cmu.edu/~fp/courses/15317-f00/)
+
 > "This multidisciplinary junior/senior-level course is designed to provide a thorough introduction to modern constructive logic, its roots in philosophy, its numerous applications in computer science, and its mathematical properties. Some of the topics to be covered are intuitionistic logic, inductive definitions, functional programming, type theory, realizability, connections between classical and constructive logic, decidable classes, temporal logic, model checking."
