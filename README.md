@@ -37,6 +37,9 @@ Blogs on subject or related subjects
 
 ## Papers
 * [Applicative programming with effects](http://www.soi.city.ac.uk/~ross/papers/Applicative.html)
+
+### Folds
+[Notes on folds](Fold/)
+* [Origami Programming](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/origami.pdf)
 * [A tutorial on the universality and
 expressiveness of fold](http://www.cs.nott.ac.uk/~gmh/fold.pdf)
-  - [Notes](Fold/)
