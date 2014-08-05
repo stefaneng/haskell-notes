@@ -68,3 +68,7 @@ map f []         = []
 map f (g x : xs) = (f . g) x : (map f xs)
 ```
 The first condition is trivially true. The second condition is also trivially true by definition of `map` and `(.)`, but it helps to draw out what is happening in the list. `[f (g x_1),..., f (g x_n), f y_1,..., f y_m]`
+
+
+### Foldl as Foldr
+See [the wiki](http://www.haskell.org/haskellwiki/Foldl_as_foldr) for more information.
