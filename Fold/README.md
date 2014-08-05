@@ -69,6 +69,10 @@ map f (g x : xs) = (f . g) x : (map f xs)
 ```
 The first condition is trivially true. The second condition is also trivially true by definition of `map` and `(.)`, but it helps to draw out what is happening in the list. `[f (g x_1),..., f (g x_n), f y_1,..., f y_m]`
 
+### Generating Tuples
+One of the most interesting results about folds is that
+> ... any function on finite lists that is defined by pairing the desired result with the argument list can always be redefined in terms of `fold`, although not always in a way that does not make use of the original (possibly recursive) definition for the function
+This result comes from the paper [Paramorphisms](http://www.kestrel.edu/home/people/meertens/publications/papers/Paramorphisms.pdf) which I have yet to read.
 
 ### Foldl as Foldr
 See [the wiki](http://www.haskell.org/haskellwiki/Foldl_as_foldr) for more information.

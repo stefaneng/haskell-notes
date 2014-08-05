@@ -43,3 +43,4 @@ Blogs on subject or related subjects
 * [Origami Programming](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/origami.pdf)
 * [A tutorial on the universality and
 expressiveness of fold](http://www.cs.nott.ac.uk/~gmh/fold.pdf)
+* [Paramorphisms](http://www.kestrel.edu/home/people/meertens/publications/papers/Paramorphisms.pdf)
