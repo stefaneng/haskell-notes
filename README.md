@@ -10,6 +10,16 @@ Each resource listed may have a link to code/notes I may have written.
   - Good introduction to the intuition behind monads. Should understand types, and the basics behind type classes.
   - [Notes](trivial-monad/README.md)
 
+## Books
+
+### Haskell
+
+### Programming Language Theory
+* [Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/tapl/)
+  - [Haskell Code](https://code.google.com/p/tapl-haskell/)
+* [Practical Foundations For Programming Languages](Practical Foundations for Programming Languages (Online Preview Edition, With Corrections))
+  - [Review](http://blog.ezyang.com/2012/08/practical-foundations-for-programming-languages/)
+
 ## Blogs
 Blogs on subject or related subjects
 ### Haskell
@@ -22,12 +32,6 @@ Blogs on subject or related subjects
   - Good resources on type theory, HoTT, etc.
   - http://existentialtype.wordpress.com
 * [Edward Yang](http://blog.ezyang.com/)
-
-#### Books
-* [Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/tapl/)
-  - [Haskell Code](https://code.google.com/p/tapl-haskell/)
-* [Practical Foundations For Programming Languages](Practical Foundations for Programming Languages (Online Preview Edition, With Corrections))
-  - [Review](http://blog.ezyang.com/2012/08/practical-foundations-for-programming-languages/)
 
 ## Libraries
 * [Servant](http://alpmestan.com/posts/2014-07-26-announcing-servant.html) defining RESTful webservices around database operations.
