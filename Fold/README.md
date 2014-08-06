@@ -76,3 +76,6 @@ This result comes from the paper [Paramorphisms](http://www.kestrel.edu/home/peo
 
 ### Foldl as Foldr
 See [the wiki](http://www.haskell.org/haskellwiki/Foldl_as_foldr) for more information.
+
+### Foldl
+[Fixing Foldl](http://www.well-typed.com/blog/90/) - tl;dr import `Data.List` and use `foldl'` instead of the standard `foldl`
