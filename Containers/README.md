@@ -1,1 +1,3 @@
 # Containers
+
+Common data structures are found in two packages on hackage, [containers](https://hackage.haskell.org/package/containers) and [unordered-containers](https://hackage.haskell.org/package/unordered-containers). Containers contains types which represent data structures for [graphs](http://en.wikipedia.org/wiki/Graph_(data_structure)), [maps](http://en.wikipedia.org/wiki/Associative_array), sequences (more efficient lists), [sets](http://en.wikipedia.org/wiki/Set_(computer_science)), and [trees](http://en.wikipedia.org/wiki/Tree_(computer_science)). Unordered containers defines efficient hashing-based containers: [hash map](http://en.wikipedia.org/wiki/Hash_table), and hash set.
