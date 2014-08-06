@@ -47,7 +47,7 @@ Blogs on subject or related subjects
 * [A tutorial on the universality and
 expressiveness of fold](http://www.cs.nott.ac.uk/~gmh/fold.pdf)
 * [Paramorphisms](http://www.kestrel.edu/home/people/meertens/publications/papers/Paramorphisms.pdf)
-*[Fixing Foldl](http://www.well-typed.com/blog/90/))
+* [Fixing Foldl](http://www.well-typed.com/blog/90/))
 
 ## Courses
 * [Constructive Logic](http://www.cs.cmu.edu/~fp/courses/15317-f00/)
