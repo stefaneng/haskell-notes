@@ -25,7 +25,6 @@ Blogs on subject or related subjects
 
 #### Books
 * [Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/tapl/)
-  - [Princeton Course](http://www.cs.princeton.edu/~dpw/cos441-11/)
   - [Haskell Code](https://code.google.com/p/tapl-haskell/)
 * [Practical Foundations For Programming Languages](Practical Foundations for Programming Languages (Online Preview Edition, With Corrections))
   - [Review](http://blog.ezyang.com/2012/08/practical-foundations-for-programming-languages/)
@@ -49,6 +48,14 @@ expressiveness of fold](http://www.cs.nott.ac.uk/~gmh/fold.pdf)
 * [Constructive Logic](http://www.cs.cmu.edu/~fp/courses/15317-f00/)
 
 > "This multidisciplinary junior/senior-level course is designed to provide a thorough introduction to modern constructive logic, its roots in philosophy, its numerous applications in computer science, and its mathematical properties. Some of the topics to be covered are intuitionistic logic, inductive definitions, functional programming, type theory, realizability, connections between classical and constructive logic, decidable classes, temporal logic, model checking."
+
+* [Homotopy Type Theory](http://www.cs.cmu.edu/~rwh/courses/hott/) from Robert Harper at CMU
+
+* [Programming Language Theory](http://www.cs.princeton.edu/~dpw/cos441-11/) from David Walker of Princeton
+
+> This advanced course is for graduate students and advanced undergraduates with a keen interest in how to design, describe and reason about programming languages. The only requirement for the course is some mathematical maturity including, for instance, familiarity with proof techniques such as induction.
+
+> Topics include: Theory and design of programming languages. How languages support abstraction, modularity and concurrency through functional programming and other mechanisms. Operational semantics of programming languages.  Denotational semantics of programming languages.  Type systems including polymorphism and subtyping.  The relation between programming languages and logic.
 
 ## Category Theory
 
