@@ -11,6 +11,9 @@ Each resource listed may have a link to code/notes I may have written.
   - [Notes](trivial-monad/README.md)
 
 ## Books
+* [Write Yourself a Scheme in 48 Hours](http://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours) - End up writing a subset of a R5RS Scheme interpreter. An excellent read after some experience in haskell (such as LYAH).
+> Most Haskell tutorials on the web use a style of teaching akin to language reference manuals. They show you the syntax of the language, a few language constructs, then tell you to create a few simple functions at the interactive prompt. The "hard stuff" of how to write a functioning, useful program is left to the end, or omitted entirely.
+
 
 ### Haskell
 
