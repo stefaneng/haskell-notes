@@ -5,6 +5,13 @@ Common data structures are found in two packages on hackage, [containers](https:
 ## [Sequence](https://hackage.haskell.org/package/containers/docs/Data-Sequence.html)
 Sequences can be treated as more efficient lists. The offer a wider range of functions that can be performed on them as well.
 
+### Overview
+Lists and sequences have a very similar api. The type of a sequence is
+```haskell
+data Seq a
+```
+One difference is the way that they are constructed. Sequences use [smart constructors](http://www.haskell.org/haskellwiki/Smart_constructors) to hide the constructors of the actual data type.
+
 ### Benefits over Lists
 * Inserting an element
  - Like lists, it is `O(1)` for inserting an element at the front. Sequences are `O(1)` for inserting at the end, which is a huge improvement over `O(n)` for lists.
