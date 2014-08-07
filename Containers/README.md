@@ -10,9 +10,41 @@ Lists and sequences have a very similar api. The type of a sequence is
 ```haskell
 data Seq a
 ```
-One difference is the way that they are constructed. Sequences use [smart constructors](http://www.haskell.org/haskellwiki/Smart_constructors) to hide the constructors of the actual data type.
+We cannot use a `Seq` directly. The containers package [smart constructors](http://www.haskell.org/haskellwiki/Smart_constructors) to hide the constructors of the actual data type. The ways we can construct a sequence are:
+1. Create an empty sequence with `empty :: Seq a`. We can think of `empty` as the list equivalent of `[]`.
+```haskell
+λ> empty
+fromList []
+```
+2. Create a single element sequence with `singleton :: a -> Seq a`. Just like `[x]` for a single value in a list.
+```haskell
+λ> singleton 1
+fromList [1]
+```
+3. Create a sequence from an existing list.
+```haskell
+λ> fromList [1..5]
+fromList [1,2,3,4,5]
+```
+
+### Inserting
+* _Insert_ elements into the front a sequence with `(<|) :: a -> Seq a -> Seq a`.
+```haskell
+λ> 1 <| 2 <| 3 <| 4 <| empty
+fromList [1,2,3,4]
+```
+Inserting an element in a sequence is much like that of a list. If we take a list `[1,2,3,4]`, and [desugar](http://en.wikipedia.org/wiki/Syntactic_sugar) it to `1 : 2 : 3 : 4 : []`.
+* _Append_ element to a sequence with `(|>) :: Seq a -> a -> Seq a`
+```haskell
+λ> empty |> 1 |> 2 |> 3 |> 4
+fromList [1,2,3,4]
+```
+While we can do the same with lists with `[] ++ [1] ++ [2] ..`, each append on a list takes `O(n)` time while sequences take `O(1)` time. Huge difference.
 
 ### Benefits over Lists
+* Length of sequence
+  - Sequences have a function `length :: Seq a -> Int`... in `O(1)`.
+  - Same algorithm for lists is `O(n)`
 * Inserting an element
  - Like lists, it is `O(1)` for inserting an element at the front. Sequences are `O(1)` for inserting at the end, which is a huge improvement over `O(n)` for lists.
 * Concatenating two sequences
