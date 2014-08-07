@@ -3,6 +3,9 @@ haskell-notes
 
 Notes on learning haskell
 
+## General
+* [Good haskell code to read](http://stackoverflow.com/questions/6398996/good-haskell-source-to-read-and-learn-from)
+
 ## Resources
 Each resource listed may have a link to code/notes I may have written.
 ### Monads
