@@ -47,6 +47,9 @@ Blogs on subject or related subjects
 ## Papers
 * [Applicative programming with effects](http://www.soi.city.ac.uk/~ross/papers/Applicative.html)
 
+### Monads
+* [Monad Transformers](http://www.grabmueller.de/martin/www/pub/Transformers.en.html) - (Have not read yet, but seems okay)
+
 ### Folds
 [Notes on folds](Fold/)
 * [Origami Programming](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/origami.pdf)
