@@ -5,6 +5,8 @@ Notes on learning haskell
 
 ## General
 * [Good haskell code to read](http://stackoverflow.com/questions/6398996/good-haskell-source-to-read-and-learn-from)
+* [ResourceT Overview](http://www.yesodweb.com/blog/2013/03/resourcet-overview)
+> ResourceT is a monad transformer which creates a region of code where you can safely allocate resources.
 
 ## Resources
 Each resource listed may have a link to code/notes I may have written.
@@ -43,6 +45,7 @@ Blogs on subject or related subjects
 * [Servant](http://alpmestan.com/posts/2014-07-26-announcing-servant.html) defining RESTful webservices around database operations.
   - https://github.com/zalora/servant
   - http://hackage.haskell.org/package/servant
+* [Applicative option parser](https://github.com/pcapriotti/optparse-applicative)
 
 ## Papers
 * [Applicative programming with effects](http://www.soi.city.ac.uk/~ross/papers/Applicative.html)
