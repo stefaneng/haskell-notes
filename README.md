@@ -53,6 +53,9 @@ Blogs on subject or related subjects
 ### Monads
 * [Monad Transformers](http://www.grabmueller.de/martin/www/pub/Transformers.en.html) - (Have not read yet, but seems okay)
 
+### Arrows
+* [Generalising Monads to Arrows](http://www.cse.chalmers.se/~rjmh/Papers/arrows.pdf)
+
 ### Folds
 [Notes on folds](Fold/)
 * [Origami Programming](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/origami.pdf)
