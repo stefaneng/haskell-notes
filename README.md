@@ -6,6 +6,7 @@ Notes on learning haskell
 ## General
 * [Good haskell code to read](http://stackoverflow.com/questions/6398996/good-haskell-source-to-read-and-learn-from)
 * [ResourceT Overview](http://www.yesodweb.com/blog/2013/03/resourcet-overview)
+
 > ResourceT is a monad transformer which creates a region of code where you can safely allocate resources.
 
 ## Testing
@@ -29,7 +30,7 @@ main = hspec $ do
       evaluate (head []) `shouldThrow` anyException
 ```
 It is easy to use it with cabal. Make a directory `test`, create a file `test/Spec.hs` and add a section in your `.cabal` file that looks like:
-```cabal
+```
 test-suite spec
   type:           exitcode-stdio-1.0
   hs-source-dirs: test
