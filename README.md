@@ -8,6 +8,36 @@ Notes on learning haskell
 * [ResourceT Overview](http://www.yesodweb.com/blog/2013/03/resourcet-overview)
 > ResourceT is a monad transformer which creates a region of code where you can safely allocate resources.
 
+## Testing
+[HSpec](http://hspec.github.io/) is the only testing framework I have used. You can still use [HUnit](http://hunit.sourceforge.net/) and [QuickCheck2](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck2), but it is wrapped with some nice bdd functions. Here is an example from the HSpec site to demonstrate how it looks.
+```haskell
+-- file Spec.hs
+import Test.Hspec
+import Test.QuickCheck
+import Control.Exception (evaluate)
+
+main :: IO ()
+main = hspec $ do
+  describe "Prelude.head" $ do
+    it "returns the first element of a list" $ do
+      head [23 ..] `shouldBe` (23 :: Int)
+
+    it "returns the first element of an *arbitrary* list" $
+      property $ \x xs -> head (x:xs) == (x :: Int)
+
+    it "throws an exception if used with an empty list" $ do
+      evaluate (head []) `shouldThrow` anyException
+```
+It is easy to use it with cabal. Make a directory `test`, create a file `test/Spec.hs` and add a section in your `.cabal` file that looks like:
+```cabal
+test-suite spec
+  type:           exitcode-stdio-1.0
+  hs-source-dirs: test
+  main-is:        Spec.hs
+  build-depends:  base >=4.7, hspec
+```
+and then run with `cabal test`.
+
 ## Resources
 Each resource listed may have a link to code/notes I may have written.
 ### Monads
