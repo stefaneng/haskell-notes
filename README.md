@@ -5,9 +5,6 @@ Notes on learning haskell
 
 ## General
 * [Good haskell code to read](http://stackoverflow.com/questions/6398996/good-haskell-source-to-read-and-learn-from)
-* [ResourceT Overview](http://www.yesodweb.com/blog/2013/03/resourcet-overview)
-
-> ResourceT is a monad transformer which creates a region of code where you can safely allocate resources.
 
 ## Testing
 [HSpec](http://hspec.github.io/) is the only testing framework I have used. You can still use [HUnit](http://hunit.sourceforge.net/) and [QuickCheck2](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck2), but it is wrapped with some nice bdd functions. Here is an example from the HSpec site to demonstrate how it looks.
@@ -46,8 +43,13 @@ Each resource listed may have a link to code/notes I may have written.
   - Good introduction to the intuition behind monads. Should understand types, and the basics behind type classes.
   - [Notes](trivial-monad/README.md)
 
+### ResourceT
+[ResourceT Overview](http://www.yesodweb.com/blog/2013/03/resourcet-overview)
+> ResourceT is a monad transformer which creates a region of code where you can safely allocate resources.
+
 ## Books
 * [Write Yourself a Scheme in 48 Hours](http://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours) - End up writing a subset of a R5RS Scheme interpreter. An excellent read after some experience in haskell (such as LYAH).
+
 > Most Haskell tutorials on the web use a style of teaching akin to language reference manuals. They show you the syntax of the language, a few language constructs, then tell you to create a few simple functions at the interactive prompt. The "hard stuff" of how to write a functioning, useful program is left to the end, or omitted entirely.
 
 
