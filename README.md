@@ -36,6 +36,15 @@ test-suite spec
 ```
 and then run with `cabal test`.
 
+## Profiling
+[Visual Prof](http://danielvelkov.blogspot.com/2014/08/easy-haskell-profiling.html)
+
+> visual-prof profiles your Haskell program and generates a HTML file containing its source code with parts of the code highlighted in different colors depending on the fraction of the running time that they take
+
+[Criterion](http://www.serpentine.com/criterion/)
+
+> criterion is a library that makes accurate microbenchmarking in Haskell easy.
+
 ## Resources
 Each resource listed may have a link to code/notes I may have written.
 ### Monads
