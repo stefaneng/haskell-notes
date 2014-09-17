@@ -7,6 +7,7 @@ Notes on learning haskell
 * [Good haskell code to read](http://stackoverflow.com/questions/6398996/good-haskell-source-to-read-and-learn-from)
 
 ## Testing
+[Tasty](http://documentup.com/feuerbach/tasty) lets you use all of the frameworks listed below in a nice way.
 [HSpec](http://hspec.github.io/) is the only testing framework I have used. You can still use [HUnit](http://hunit.sourceforge.net/) and [QuickCheck2](http://www.haskell.org/haskellwiki/Introduction_to_QuickCheck2), but it is wrapped with some nice bdd functions. Here is an example from the HSpec site to demonstrate how it looks.
 ```haskell
 -- file Spec.hs
