@@ -57,6 +57,9 @@ Each resource listed may have a link to code/notes I may have written.
 [ResourceT Overview](http://www.yesodweb.com/blog/2013/03/resourcet-overview)
 > ResourceT is a monad transformer which creates a region of code where you can safely allocate resources.
 
+### Plotting Libraries
+  - [Haskell Chart](https://github.com/timbod7/haskell-chart)
+
 ## Books
 * [Write Yourself a Scheme in 48 Hours](http://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours) - End up writing a subset of a R5RS Scheme interpreter. An excellent read after some experience in haskell (such as LYAH).
 
