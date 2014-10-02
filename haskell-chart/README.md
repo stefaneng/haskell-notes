@@ -14,7 +14,7 @@ Haskell Chart is split into 5 different components.
 
 ### Gtk
 Chart-gtk is failing to build on osx..
-> Preprocessing library glib-0.12.5.4...
+```Preprocessing library glib-0.12.5.4...
   gtk2hsC2hs: Error in C header file.
   /usr/include/dirent.h:147: (column 10) [FATAL]
   >>> Syntax error!
@@ -22,6 +22,7 @@ Chart-gtk is failing to build on osx..
 
   cabal: Error: some packages failed to install:
   Chart-gtk-1.3.1 depends on glib-0.12.5.4 which failed to install.
+```
 
 ### Simple
 ...
